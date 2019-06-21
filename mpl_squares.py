@@ -6,7 +6,6 @@ squares = [1, 4, 9, 16, 25]
 
 plt.style.use('bmh')
 fig, ax = plt.subplots()
-ax.scatter(3, 5, s=200)
 ax.plot(input_values, squares, linewidth=4)
 
 # Set chart title and label axes.
@@ -23,5 +22,5 @@ plt.show()
 
 
 
-#344
+#360
 
